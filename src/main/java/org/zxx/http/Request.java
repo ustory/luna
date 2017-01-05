@@ -6,8 +6,8 @@ public class Request {
     private String id;
     private String service;
     private String method;
-    private Map<String, Object> meta;
-    private Map<String, Object> parameter;
+    private Map<String, Object> metas;
+    private Map<String, Object> params;
 
     public String getId() {
         return id;
@@ -33,19 +33,19 @@ public class Request {
         this.method = method;
     }
 
-    public Map<String, Object> getMeta() {
-        return meta;
+    public Map<String, Object> getMetas() {
+        return metas;
     }
 
-    public void setMeta(Map<String, Object> meta) {
-        this.meta = meta;
+    public void setMetas(Map<String, Object> metas) {
+        this.metas = metas;
     }
 
-    public Map<String, Object> getParameter() {
-        return parameter;
+    public Map<String, Object> getParams() {
+        return params;
     }
 
-    public void setParameter(Map<String, Object> parameter) {
-        this.parameter = parameter;
+    public void setParams(Map<String, Object> params) {
+        this.params = params;
     }
 }
